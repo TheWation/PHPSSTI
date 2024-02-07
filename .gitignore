@@ -1,0 +1,44 @@
+# Ignore Composer's vendor directory
+/vendor
+
+# Ignore any logs or temporary files
+/log
+/tmp
+*.log
+
+# Ignore the Composer-generated autoloader
+/vendor/autoload.php
+
+# Ignore the Composer lock file
+/composer.lock
+
+# Ignore environment-specific configuration files
+.env
+
+# Ignore user-specific files
+.idea
+*.iml
+.vscode
+
+# Ignore server-specific files
+.sftp
+
+# Ignore local development configuration
+/.env.local
+
+# Ignore any build artifacts
+/build
+
+# Ignore SQLite database files
+/*.sqlite
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Node.js related files
+/node_modules
+
+# Ignore the Twig cache directory
+/var/cache/twig

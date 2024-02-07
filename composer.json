@@ -1,0 +1,7 @@
+{
+    "name": "thewation/php-ssti",
+    "description": "A SSTI vulnerable PHP application for educational purposes",
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
